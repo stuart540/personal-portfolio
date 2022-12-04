@@ -44,6 +44,10 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 /* hero banner styling */
 
 .hero-banner {
@@ -66,16 +70,7 @@ h2 {
   margin-left: 65vw;
 }
 
-
-h3 {
-  display: inline-block;
-  font-size: 40px;
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
+/* main content styling */
 
 main {
   display: flex;
@@ -83,7 +78,7 @@ main {
   margin: 10px;
   flex-direction: column;
   margin: 0 auto;
-  background-color: aqua;
+ 
 }
 
 .page-section {
@@ -93,4 +88,19 @@ main {
   align-items: flex-end;
   margin-bottom: 20px;
   background-color: rgb(234, 234, 240);
+}
+
+h3 {
+  font-size: 40px;
+}
+
+p {
+  margin: 30px;
+}
+
+#contact {
+  display: flex;
+  padding-right: 10vw;
+  justify-content: space-between;
+  align-items: center;
 }
