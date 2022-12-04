@@ -8,12 +8,48 @@ body {
   font-family: Arial, Helvetica, sans-serif 
 }
 
-h1,
+header {
+  padding: 20px;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  display: inline-block;
+  color: goldenrod;
+  text-decoration: none;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 48px;
+  margin: 0;
+
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
+  display: inline-block;
+  font-size: 48px;
   margin: 0;
 }
 
