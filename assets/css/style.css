@@ -63,6 +63,14 @@ a:hover {
   
 }
 
+/* avatar od Stuart */
+img {
+  height: 15vh;
+  border-radius: 50%;
+  border: whitesmoke 3px solid;
+  margin: 1em;
+}
+
 h2 {
   font-size: 30px;
   padding: 1vh;
@@ -75,11 +83,8 @@ h2 {
 main {
   display: flex;
   width: 90vw;
-  /* padding: 10px;
-  margin: 10px; */
   flex-direction: column;
   margin: 0 auto;
- 
 }
 
 .page-section {
