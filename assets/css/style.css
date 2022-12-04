@@ -56,7 +56,7 @@ a:hover {
   height: 30vh;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("../images/Beach.jpg");
+  background-image: url("../images/Climbing.JPG");
   background-size: cover;
   background-position: center;
   color:  #3c4143;
@@ -74,8 +74,9 @@ h2 {
 
 main {
   display: flex;
-  padding: 10px;
-  margin: 10px;
+  width: 90vw;
+  /* padding: 10px;
+  margin: 10px; */
   flex-direction: column;
   margin: 0 auto;
  
@@ -85,17 +86,23 @@ main {
   height: 100%;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   margin-bottom: 20px;
   background-color: rgb(234, 234, 240);
 }
 
 h3 {
+  display: block;
+  width: 15vw;
+  height: 15vh;
   font-size: 40px;
+  border-right: #3c4143 solid 3px;
+
 }
 
 p {
-  margin: 30px;
+  margin: 2em;
+  padding-left: 1em;
 }
 
 #contact {
