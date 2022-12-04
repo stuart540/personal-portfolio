@@ -93,23 +93,76 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  background-color: rgb(234, 234, 240);
+  /* background-color: rgb(234, 234, 240); */
 }
 
 h3 {
   display: block;
   width: 15vw;
   height: 15vh;
-  font-size: 40px;
+  font-size: 2em;
   border-right: #3c4143 solid 3px;
+  text-align: end;
+  padding-right: 1em;
 
 }
 
 p {
-  margin: 2em;
-  padding-left: 1em;
+  margin: 2%;
+  padding-left: 2%;
+}
+/* grid css */
+.grid{
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 40vw 40vw;
+  grid-template-areas:
+  "refactor refactor"
+  "led-wall calculator"
+  "pastel-puzzles run-buddy"
+  ;
 }
 
+#refactor {
+  grid-area: refactor;
+  background-image: url("../images/stuart540.github.io_code-refactor-horiseon.jpg");
+
+}
+#led-wall{
+  grid-area: led-wall;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#calculator {
+  grid-area: calculator;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#pastel-puzzles{
+  grid-area: pastel-puzzles;
+  background-image: url("../images/02-hero-bg.jpg");
+}
+
+#run-buddy {
+  grid-area: run-buddy;
+  background-image: url("../images/02-run-buddy.jpg")
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: #3c4143 solid 5px;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+  font-size: 2em;
+}
+
+
+/* footer link styling */
 #contact {
   display: flex;
   padding-right: 10vw;
