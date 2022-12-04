@@ -1,8 +1,8 @@
 # personal-portfolio
 
 ## Description 
-
-This site aims to catalogue my progression while learning front end web development. The format will start out with some basic HTML/CSS structure and formatting, which will be refined as my skills 'develop'.
+§
+This site aims to catalogue my progression while learning front end web development. the finished version will be a portfolio to showcase the skills I learn. The format will start out with some basic HTML/CSS structure and formatting, which will be refined as my skills 'develop'.
 
 <!-- Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
 
