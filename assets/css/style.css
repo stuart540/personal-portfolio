@@ -87,36 +87,51 @@ main {
   margin: 0 auto;
 }
 
-.page-section {
+.page-section,
+footer {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  /* background-color: rgb(234, 234, 240); */
+}
+/* styling for sidebars */
+
+aside {
+  display:inline-block;
+  text-align: right;
+  text-align: start;
 }
 
 h3 {
-  display: block;
-  width: 15vw;
-  height: 15vh;
+  display:inline-block;
+  width: 10vw;
   font-size: 2em;
-  border-right: #3c4143 solid 3px;
   text-align: end;
   padding-right: 1em;
 
 }
 
-p {
+.about-me {
+  display: block;
+  width: 60vw;
+  padding-left: 5vw;
+  border-left: #3c4143 solid 3px;
+}
+
+
+/* p {
   margin: 2%;
   padding-left: 2%;
-}
+} */
+
 /* grid css */
 .grid{
-  margin: 0px 5%;
   display: grid;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-columns: 40vw 40vw;
+  padding-left: 5vw;
+  border-left: #3c4143 solid 3px;
+  grid-template-rows: 30vh 30vh 30vh;
+  grid-template-columns: 30vw 30vw;
   grid-template-areas:
   "refactor refactor"
   "led-wall calculator"
@@ -149,23 +164,29 @@ p {
   background-image: url("../images/02-run-buddy.jpg")
 }
 
-.categoryGridArea {
+.GridArea {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border: #3c4143 solid 5px;
+  border-radius: 10px;
   margin: 5px;
   cursor: pointer;
-  display: grid;
-  align-content: end;
   font-size: 2em;
+
 }
 
 
 /* footer link styling */
-#contact {
+.footer_links {
   display: flex;
-  padding-right: 10vw;
-  justify-content: space-between;
-  align-items: center;
+  padding-left: 5vw;
+  /* width: vw;
+  height: 15vh; */
+  border-left: #3c4143 solid 3px;
+}
+
+footer {
+  display: flex;  
+  align-items: stretch;
 }
