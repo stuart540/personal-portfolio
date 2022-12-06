@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -37,14 +38,14 @@ li {
   display: inline;
 }
 
-a {
+li a {
   padding-right: 2vw;
   font-size: 20px;
   color: rgb(192, 200, 215);
   text-decoration: underline;
 }
 
-a:hover {
+li a:hover {
   text-decoration: none;
 }
 
@@ -75,7 +76,7 @@ h2 {
   font-size: 30px;
   padding: 1vh;
   background-color: rgb(192, 200, 215);
-  margin-left: 65vw;
+  margin-left: 50vw;
 }
 
 /* main content styling */
@@ -100,16 +101,18 @@ footer {
 aside {
   display:inline-block;
   text-align: right;
-  text-align: start;
 }
 
-h3 {
-  display:inline-block;
+h3,
+h5 {
   width: 10vw;
   font-size: 2em;
-  text-align: end;
   padding-right: 1em;
 
+}
+
+h5 {
+  border-right: #3c4143 solid 3px;;
 }
 
 .about-me {
@@ -119,11 +122,6 @@ h3 {
   border-left: #3c4143 solid 3px;
 }
 
-
-/* p {
-  margin: 2%;
-  padding-left: 2%;
-} */
 
 /* grid css */
 .grid{
@@ -172,21 +170,103 @@ h3 {
   border-radius: 10px;
   margin: 5px;
   cursor: pointer;
-  font-size: 2em;
 
 }
 
+.heading {
+  font-size: 20px;
+  background-color: #3c4143;
+  padding: 1ex;
+  text-justify: ;
+}
+
+.GridArea:hover {
+  opacity: 0.7;
+}
+
+.flex-item {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: #3c4143 solid 5px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 20px;
+  padding: 1ex;
+}
+
+.flex-item:hover {
+  opacity: 0.7;
+}
+
+.clickable {
+  background-color: #3c4143;
+  
+  color: black;
+}
+
+h4 {
+  
+}
 
 /* footer link styling */
 .footer_links {
   display: flex;
-  padding-left: 5vw;
-  /* width: vw;
-  height: 15vh; */
-  border-left: #3c4143 solid 3px;
+  padding-left: 30vw;
+  padding-bottom: 10vh;
+
+
 }
 
 footer {
   display: flex;  
   align-items: stretch;
+}
+
+@media screen and (max-width: 979px) {
+ 
+  h1 {
+    width: max-content;
+    padding-inline: 100%;
+  }
+ 
+  h3,
+  h5 {
+  width: max-content;
+
+ }
+
+ .hero-banner {
+  height: 40vh;
+
+ }
+
+ 
+
+ .about-me,
+ .grid {
+  border-left: none;
+  border-top: #3c4143 solid 3px;
+}
+
+ section,
+ header {
+  display: flex;
+  flex-direction: column;
+
+ }
+
+}
+
+@media screen and (max-width: 769px) {
+  
+  h2 {
+    margin-left: 0;
+    
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
